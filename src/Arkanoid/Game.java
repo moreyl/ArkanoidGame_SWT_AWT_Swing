@@ -161,16 +161,8 @@ public class Game extends JPanel {
 		g.drawRect(0, 0, gameField.width, gameField.height);
 		
 		
-		if (won) {
-			g.drawString("You won!", 100, 100);
-			stop();
-		}
-		if (lost) {
-			g.drawString("You lost!", 100, 100);
-			stop();
-			
 			
 		}
 		
 	}
-	}
+	
