@@ -5,11 +5,13 @@ public class Main {
 	public static Game game;
 	
 	public static void main(String [] args) {
+		
 		frame = new JFrame("Arkanoid");
+		
 		frame.setSize(900, 700);
 		frame.setLocationRelativeTo(null);
-				
-		game = new Game(frame);
+		game = new Game(frame, 10, 3);
+		
 		game.setSize(frame.getSize());
 		frame.add(game);
 		
